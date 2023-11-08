@@ -8,7 +8,7 @@ input_filename(Day) ->
     ["inputs/", Day].
 
 run() ->
-    FinishedDays = [day1, day2],
+    FinishedDays = [day1, day2, day3],
     [run(Day) || Day <- FinishedDays],
     ok.
 
