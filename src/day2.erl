@@ -4,7 +4,6 @@
 
 -import(aoc2015_erlang, [input_filename/1]).
 
-%% 2*l*w + 2*w*h + 2*h*l
 part1() ->
     FileName = input_filename(?MODULE_STRING),
     {ok, Binary} = file:read_file(FileName),
