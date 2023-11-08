@@ -2,13 +2,11 @@
 
 -export([run/0, input_filename/1]).
 
--import(day1, [part1/0, part2/0]).
-
 input_filename(Day) ->
     ["inputs/", Day].
 
 run() ->
-    FinishedDays = [day1, day2, day3],
+    FinishedDays = [day1, day2, day3, day4],
     [run(Day) || Day <- FinishedDays],
     ok.
 
